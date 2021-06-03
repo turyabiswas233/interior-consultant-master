@@ -189,12 +189,6 @@ body {
         width: fit-content;
         height: fit-content;
     }
-    #menu-btn a i{
-        transition:all 150ms ease-in;
-    }
-    #menu-btn a i:hover{
-        color:red;
-    }
 
     #menu-btn a#open i {
         color: white;
@@ -392,6 +386,8 @@ div.info_text p:nth-child(2) {
     align-items: center;
     justify-content: space-between;
     width: fit-content;
+    heigh:10px;
+    transition:all 150ms ease-in;
 }
 
 .info_text .button i {
@@ -401,8 +397,12 @@ div.info_text p:nth-child(2) {
     color: white;
 }
 
-.info_text .button:hover {
+.info_text .button:hover i {
+    color: #bdfcff;
+}{
     cursor: pointer;
+    color:#bdfcff;
+    transform: translate(0%, -5%);
 }
 
 div.info_text div.button p {
