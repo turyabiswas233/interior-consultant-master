@@ -189,10 +189,15 @@ body {
         width: fit-content;
         height: fit-content;
     }
+    #menu-btn a i{
+        transition:all 150ms ease-in;
+    }
+    #menu-btn a i:hover{
+        color:red;
+    }
 
     #menu-btn a#open i {
         color: white;
-
     }
 
     #menu-btn a#close i {
