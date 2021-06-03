@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://gihtub.com/turyabiswas233/interior-consultant-master">
+    <a href="https://github.com/turyabiswas233/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
