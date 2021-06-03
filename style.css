@@ -386,7 +386,7 @@ div.info_text p:nth-child(2) {
     align-items: center;
     justify-content: space-between;
     width: fit-content;
-    padding:10px 10px 10px 0;
+    height:30px;
     transition:all 150ms ease-in;
 }
 
@@ -398,7 +398,7 @@ div.info_text p:nth-child(2) {
     transition:all 150ms ease-in;
 }
 
-.info_text .button:hover i {
+.info_text .button:hover i,.button:hover p {
     color: #bdfcff;
     cursor: pointer;
     color:#bdfcff;
