@@ -211,12 +211,12 @@ body {
     ul#mobile {
         list-style-type: none;
         display: none;
+        padding-top: 20%;
     }
 
     ul#mobile li {
         width: fit-content;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-top: 8vh;
         height: auto;
         width: 100%;
         text-align: center;
@@ -386,8 +386,9 @@ div.info_text p:nth-child(2) {
     align-items: center;
     justify-content: space-between;
     width: fit-content;
-    height:30px;
-    transition:all 150ms ease-in;
+}
+.button:hover{
+    cursor:pointer;
 }
 
 .info_text .button i {
@@ -396,13 +397,6 @@ div.info_text p:nth-child(2) {
     line-height: 10px;
     color: white;
     transition:all 150ms ease-in;
-}
-
-.info_text .button:hover i,.button:hover p {
-    color: #bdfcff;
-    cursor: pointer;
-    color:#bdfcff;
-    transform: translate(0%, -5%);
 }
 
 div.info_text div.button p {
