@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.min.css">
+  <link rel="stylesheet" href="fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+      integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Interior Consultant Master</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+  <!--full body-->
+  <div class="body">
+    <div class="header">
+      <p class="hideon-mobileview">This Interior</p>
+      <ul id="desktop">
+        <li>Home</li>
+        <li>Collection</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <div id="menu-btn">
+        <a href="#" id="open">
+          <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <a href="#" id="close">
+          <i class="fas fa-times fa-2x"></i>
+        </a>
+      </div>
+    </div>
+    <ul id="mobile">
+      <li><a class="menu-link home">Home</a></li>
+      <li><a class="menu-link">Collection</a></li>
+      <li><a class="menu-link">About</a></li>
+      <li><a class="menu-link">Contact</a></li>
+    </ul>
+    <div class="main">
+      <div class="text__img">
+        <div class="info_text">
+          <p>Modern interior</p>
+          <p>A full-Service residential & commercial interior design and staging company offering professional
+            organizing & <br>eco-services.</p>
+          <div class="button">
+            <p>Read more</p>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <img src="photo1.png" alt="">
+        <div class="signature">
+          <div class="img_intro">
+            <img src="photo2.png" alt="">
+            <div class="text">
+              <p>Aliza Webber</p>
+              <p>Interior designer</p>
+            </div>
+          </div>
+          <div class="describe">
+            <p>Designed in 2020 by <br> Aliza Webber</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--footer-->
+  <div class="footer">
+    <p style="text-align:center">created by <a href="https://www.github.com/turyabiswas233">turyabiswas233</a> -
+      devChallenges.io</p>
+  </div>
+  <!--footer-->
+
+  <script>
+    $(document).ready(function () {
+
+      $("#open").click(function () {
+        $("#mobile").show(300);
+        $('#close').show(300);
+        $('#open').hide(300);
+        $('.hideon-mobileview').hide(300);
+        $('.main').hide(300);
+        $('.footer').hide(300);
+      });
+
+      $('#close').click(function () {
+        $("#mobile").hide(300);
+        $('#close').hide(300);
+        $('#open').show(300);
+        $('.hideon-mobileview').show(300);
+        $('.main').show(300);
+        $('.footer').show(300);
+      });
+      $('.home').click(function () {
+        $("#mobile").hide(300);
+        $('#close').hide(300);
+        $('#open').show(300);
+        $('.hideon-mobileview').show(300);
+        $('.main').show(300);
+        $('.footer').show(300);
+      });
+
+    });
+  </script>
+</body>
+
+</html>
