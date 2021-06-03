@@ -395,11 +395,11 @@ div.info_text p:nth-child(2) {
     padding-top: 7px;
     line-height: 10px;
     color: white;
+    transition:all 150ms ease-in;
 }
 
 .info_text .button:hover i {
     color: #bdfcff;
-}{
     cursor: pointer;
     color:#bdfcff;
     transform: translate(0%, -5%);
